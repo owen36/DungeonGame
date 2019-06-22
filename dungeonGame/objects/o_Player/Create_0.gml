@@ -32,6 +32,13 @@ jump = 0;
 jumpHeld = 0;
 block = 0;
 
+
+//damage
+flashCounter = 0
+hurt = false;
+hurtTime = room_speed;
+hp = 5;
+
 enum states
 {
 	Idle,
