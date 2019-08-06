@@ -21,7 +21,9 @@ with(instance_place(x, y, o_Player))
 		hp -= 1;	
 		
 		alarm[HURT] = hurtTime
-									
+							
+		state = states.Hit;
+		image_index = 0;		
 	}		
 		
 }

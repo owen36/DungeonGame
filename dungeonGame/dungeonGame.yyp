@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04390c44-d164-4113-8963-d569ad79c049",
+            "Value": {
+                "id": "11e3717a-13a5-4919-ad05-72a874c90b40",
+                "resourcePath": "views\\04390c44-d164-4113-8963-d569ad79c049.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "043a5618-042f-42cd-8767-73a845bf5854",
             "Value": {
                 "id": "5cebe6e3-ea6d-4d98-b0e7-a5d8950d94a5",
@@ -108,6 +116,14 @@
                 "id": "8e0a7c24-83aa-4a61-9168-85427a47616e",
                 "resourcePath": "views\\156f6cb3-6173-4842-9e6e-69e4f47a6ee1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "161440d9-9dd6-4a5c-8ea8-41a8589b876b",
+            "Value": {
+                "id": "57fa4f5d-955f-4ddd-8ff7-03548446ce1e",
+                "resourcePath": "sprites\\Gundam_Head_Idle\\Gundam_Head_Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "4a2eed7e-e4dc-4ef5-a00a-1e58b3228bfe",
+            "Value": {
+                "id": "6d79954c-a1b4-49fb-b2b4-0c8ed5520442",
+                "resourcePath": "sprites\\Gundam_Body\\Gundam_Body.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4dfbf918-1bf1-4f5a-84ff-4fee2b229462",
             "Value": {
                 "id": "dadcfd59-7dbc-447d-964b-9551483f0d03",
@@ -303,11 +327,27 @@
             }
         },
         {
+            "Key": "5194de53-0e26-4acb-ad17-e1ae57af94bf",
+            "Value": {
+                "id": "59491b40-be31-491b-91cc-378441e1ac9c",
+                "resourcePath": "sprites\\newWalk\\newWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cf82df8-14c7-423d-a59d-e9b47fba54b6",
             "Value": {
                 "id": "ba8cee27-8525-4953-a7e9-3d268167b6b7",
                 "resourcePath": "scripts\\CalculateMovement\\CalculateMovement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "63a95320-1d56-40f3-a3c2-6ae997f9b8de",
+            "Value": {
+                "id": "ca6f75a7-8d7d-48fd-a943-53926229c96f",
+                "resourcePath": "sprites\\Gundam_Left_Arm_Idle\\Gundam_Left_Arm_Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -324,6 +364,14 @@
                 "id": "9dcab61b-a1b1-46c5-8307-8f9b20002b4a",
                 "resourcePath": "views\\65acb72c-3c41-44df-911c-d098068ec225.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66a32e63-8ba1-4147-b351-90e597ed9929",
+            "Value": {
+                "id": "c08c07dd-aa88-4530-9838-bf80a54833f3",
+                "resourcePath": "sprites\\newIdle\\newIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,6 +431,14 @@
             }
         },
         {
+            "Key": "7b7a99e2-0d0a-4bb9-aa40-33b19fd2c1e7",
+            "Value": {
+                "id": "deb4a39c-e8b8-4e94-bd3f-93367d45b3d9",
+                "resourcePath": "sprites\\Gundam_Legs_Idle\\Gundam_Legs_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80ec4557-4b9f-4c81-800e-a07af0ef26e0",
             "Value": {
                 "id": "9b5f17cd-86e7-4caa-a304-f702838840e8",
@@ -423,6 +479,22 @@
             }
         },
         {
+            "Key": "92d5b5d3-3393-45ec-bcd8-436ca745fd0d",
+            "Value": {
+                "id": "e44685fe-938e-48bd-9cd6-261fe0efb0ad",
+                "resourcePath": "views\\92d5b5d3-3393-45ec-bcd8-436ca745fd0d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "955dac4e-2c29-4731-9708-5b3d84033d3f",
+            "Value": {
+                "id": "f5aec410-56db-451b-ad85-b3947217b68f",
+                "resourcePath": "sprites\\Gundam_Right_Arm_Idle\\Gundam_Right_Arm_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9988dd7d-1871-414d-8e00-8c182bd81714",
             "Value": {
                 "id": "23ab451b-030d-45eb-92d6-ea1acd3c400d",
@@ -452,6 +524,14 @@
                 "id": "f7586cb4-9ec9-4fc3-bf5f-f407cc4b69cd",
                 "resourcePath": "sprites\\s_sword_hit2\\s_sword_hit2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "4a24f814-f6d3-4f1c-a924-2e124a581c4b",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -524,6 +604,22 @@
                 "id": "d9891f1d-e3bd-46b6-826a-f2a8f09e97ca",
                 "resourcePath": "objects\\o_Player_Dust_Jump\\o_Player_Dust_Jump.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c368d61c-487c-4f53-868f-ed9b0082e1ec",
+            "Value": {
+                "id": "f39f2246-9be4-4f42-8548-491b84164fc7",
+                "resourcePath": "scripts\\PlayerHitState\\PlayerHitState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c455bceb-d025-4a61-8a03-694d1e1c4912",
+            "Value": {
+                "id": "774c9a28-8a38-4f1d-a741-3893888377bf",
+                "resourcePath": "sprites\\s_player_hurting\\s_player_hurting.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -663,6 +759,14 @@
             }
         },
         {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "b69d9949-8a2a-4854-a00d-698ddddc8185",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
             "Key": "f590ef85-e13d-4f87-bb2c-61e885d81d62",
             "Value": {
                 "id": "54662524-739a-4d32-83cf-5f18b3a04039",
@@ -692,6 +796,14 @@
                 "id": "b4f93237-0a4b-4830-90e1-62597fdb4577",
                 "resourcePath": "views\\fa95d8e3-afd5-4fc9-9296-b1ccfee4713b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc991c70-4760-4f1d-8324-b30f0852de6a",
+            "Value": {
+                "id": "352e70c5-e92d-41bb-9683-4236b2766e7a",
+                "resourcePath": "sprites\\newDuck\\newDuck.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -733,6 +845,7 @@
         "df51f6be-67b3-4e6e-b296-df26b7808d66",
         "288160e8-b79a-41ab-b63e-b678d2597d1a",
         "29da3f30-6927-45f0-b8c9-b52b95a1b8d4",
+        "c368d61c-487c-4f53-868f-ed9b0082e1ec",
         "3366b0b2-702f-41a1-8ba2-a6512f23ae53",
         "270d9ccd-23cc-4686-9bf0-a218a4c5ec27",
         "e8a532f4-259f-413e-adcf-247e05a5a23a",

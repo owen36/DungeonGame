@@ -47,32 +47,36 @@ enum states
 	Attack,
 	Block,
 	Crouch,
-	CrouchBlock
+	CrouchBlock,
+	Hit
 		
 };
 
 state = states.Idle;
 
-stateArray[states.Idle]		= PlayerIdleState;
-stateArray[states.Walk]		= PlayerWalkState;
-stateArray[states.Jump]		= PlayerJumpState;
+stateArray[states.Idle]			= PlayerIdleState;
+stateArray[states.Walk]			= PlayerWalkState;
+stateArray[states.Jump]			= PlayerJumpState;
 stateArray[states.Attack]		= PlayerAttackState;
 stateArray[states.Block]		= PlayerBlockState;
 stateArray[states.Crouch]		= PlayerCrouchState;
-stateArray[states.CrouchBlock] = PlayerCrouchBlockState;
+stateArray[states.CrouchBlock]	= PlayerCrouchBlockState;
+stateArray[states.Hit]			= PlayerHitState;
 
-spriteArray[states.Idle]		= s_player_idle_strip4;
+spriteArray[states.Idle]		= newIdle;
 spriteArray[states.Walk]		= s_player_walk_strip6;
 spriteArray[states.Jump]		= s_player_jump_strip2;
 spriteArray[states.Attack]		= s_player_attack_strip5;
 spriteArray[states.Block]		= s_player_block_strip1;
 spriteArray[states.Crouch]		= s_player_crouch_strip4;
 spriteArray[states.CrouchBlock] = s_player_crouch_block_strip1;
+spriteArray[states.Hit]			= s_player_hurting;
 
-maskArray[states.Idle]			= s_player_idle_strip4;
+maskArray[states.Idle]			= newIdle;
 maskArray[states.Walk]			= s_player_idle_strip4;
 maskArray[states.Jump]			= s_player_idle_strip4;
 maskArray[states.Attack]		= s_player_idle_strip4;
 maskArray[states.Block]			= s_player_idle_strip4;
 maskArray[states.Crouch]		= s_player_crouch_strip4;
 maskArray[states.CrouchBlock]	= s_player_crouch_strip4;
+maskArray[states.Hit]			= s_player_idle_strip4;

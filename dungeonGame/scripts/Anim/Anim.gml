@@ -20,4 +20,15 @@ switch (state)
 		sprite_index = s_player_attack_strip5;
 	break;
 	
+	case states.Hit:
+		if(!OnGround())
+		{
+			sprite_index = s_player_jump_strip2;
+			
+			if(vsp < 0)
+				image_index = 0;
+			else
+				image_index = 1;
+		}
+	
 }

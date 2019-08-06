@@ -14,6 +14,12 @@ if(attack)
 	image_index = 0;
 }
 
+if(down)
+{
+	state = states.Crouch;
+	hsp = 0;	
+}
+
 if(jump)
 {
 	Jumped();
@@ -25,11 +31,6 @@ state = states.Block;
 hsp = 0;	
 }
 
-if(down)
-{
-	state = states.Crouch;
-	hsp = 0;	
-}
 
 //// apply movement
 Collision();
